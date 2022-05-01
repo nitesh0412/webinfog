@@ -8,4 +8,4 @@ def get_robots_txt(url):
         path = url + '/'
     request = urllib.request.urlopen('https://www.'+ path + 'robots.txt', data=None)
     return request
-print(get_robots_txt("pharmeasy.in"))
+print(get_robots_txt("ltce.in"))
